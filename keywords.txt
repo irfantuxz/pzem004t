@@ -1,20 +1,66 @@
-PZEM004Tv30 KEYWORD1
-SoftwareSerial KEYWORD2
-SoftSerial KEYWORD2
-update KEYWORD2
-requestUpdate KEYWORD2
-voltage KEYWORD2
-current KEYWORD2
-power KEYWORD2
-energy KEYWORD2
-frequency KEYWORD2
-pf KEYWORD2
-setAddress KEYWORD2
-readAddress KEYWORD2
-getAddress KEYWORD2
-getData KEYWORD2
-setUpdateInterval KEYWORD2
-setResponseTimeout KEYWORD2
-setLogOutput KEYWORD2
-isSoftwareSerialPinValid KEYWORD2
-isHardwareSerialPinValid KEYWORD2
+#######################################
+# Syntax Coloring Map For PZEM004T
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+PZEM004T	KEYWORD1
+PZEM004Tv30	KEYWORD1
+Measurements	KEYWORD1
+Error	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+SoftwareSerial	KEYWORD2
+SoftSerial	KEYWORD2
+begin	KEYWORD2
+setBaudRate	KEYWORD2
+update	KEYWORD2
+requestUpdate	KEYWORD2
+setUpdateInterval	KEYWORD2
+getUpdateInterval	KEYWORD2
+setResponseTimeout	KEYWORD2
+voltage	KEYWORD2
+current	KEYWORD2
+power	KEYWORD2
+energy	KEYWORD2
+frequency	KEYWORD2
+pf	KEYWORD2
+getData	KEYWORD2
+hasData	KEYWORD2
+isDataReady	KEYWORD2
+isConnected	KEYWORD2
+isBusy	KEYWORD2
+isUpdateDue	KEYWORD2
+lastUpdateMillis	KEYWORD2
+getLastError	KEYWORD2
+getRxOverflowCount	KEYWORD2
+errorToString	KEYWORD2
+boardName	KEYWORD2
+setLogOutput	KEYWORD2
+isSoftwareSerialPinValid	KEYWORD2
+isHardwareSerialPinValid	KEYWORD2
+setAddress	KEYWORD2
+readAddress	KEYWORD2
+setPowerAlarm	KEYWORD2
+getPowerAlarm	KEYWORD2
+resetEnergy	KEYWORD2
+search	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+PZEM_DEFAULT_ADDR	LITERAL1
+PZEM_BAUD_RATE	LITERAL1
+PZEM_DEFAULT_INTERVAL	LITERAL1
+PZEM_DEFAULT_TIMEOUT	LITERAL1
+PZEM_SOFT_DEFAULT_TIMEOUT	LITERAL1
+PZEM004_NO_SWSERIAL	LITERAL1
+PZEM004_ALLOW_USB_GPIO	LITERAL1
+PZEM004_DISABLE_PIN_FILTER	LITERAL1
+PZEM004T_DISABLE_SEARCH	LITERAL1
