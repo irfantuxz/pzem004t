@@ -254,7 +254,7 @@ void PZEM004T::init(Stream* port, SerialKind kind, uint8_t addr) {
     _hasData = false;
     _currentValues = {NAN, NAN, NAN, NAN, NAN, NAN, 0};
 
-    _updateInterval = PZEM_DEFAULT_INTERVAL - 10UL;
+    _updateInterval = PZEM_DEFAULT_INTERVAL;
     // Software UART reception is decoded from captured GPIO edges in the main
     // loop. Give it a wider response window, especially when multiple software
     // UART instances are active. Successful frames are still accepted as soon
