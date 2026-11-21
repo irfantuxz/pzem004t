@@ -1,4 +1,4 @@
-# PZEM004T - Version 2.0.0
+# PZEM004T - Version 2.0.1
 
 An extended fork of the PZEM-004T v3.0 Arduino library by Jakub Mandula. This release continues from upstream version **1.2.1** and retains the original MIT license notice.
 
@@ -13,6 +13,10 @@ An extended fork of the PZEM-004T v3.0 Arduino library by Jakub Mandula. This re
 7. Added `SoftSerial` as a compact constructor tag and retained `PZEM004Tv30` as a type alias for backward compatibility.
 8. Added six examples for common wiring and application patterns.
 9. Renamed the primary class to `PZEM004T` for compatibility across PZEM-004T v3.0 and v4.0 hardware revisions.
+
+## Changes in 2.0.1
+
+* Minor fixs and metadata
 
 ## Supported board families
 
