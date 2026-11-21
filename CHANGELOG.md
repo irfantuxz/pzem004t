@@ -41,3 +41,7 @@ This release continues the work of the upstream PZEM-004T v3.0 Arduino library b
 - On AVR, SoftwareSerial can listen to only one instance at a time. Use HardwareSerial ports on Mega when available.
 - Multiple PZEM devices sharing one UART must have unique addresses and must be polled sequentially. Do not issue concurrent requests on the same shared UART.
 - ESP32 SoftwareSerial requires EspSoftwareSerial by plerup unless `PZEM004_NO_SWSERIAL` is defined before including `PZEM004T.h`.
+
+## 2.0.1 - Update
+
+### Minor fix and metadata
