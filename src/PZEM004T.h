@@ -2,7 +2,7 @@
  * PZEM004T.h
  *
  * Fork of the PZEM-004T v3.0 Arduino library by Jakub Mandula version 1.2.1.
- * Fork version: 2.0.0
+ * Fork version: 2.0.1
  *
  * Copyright (c) 2026 Irfan_TuxZ
  * Permission is hereby granted, free of charge, to any person obtaining a copy
